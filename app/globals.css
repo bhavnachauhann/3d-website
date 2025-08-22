@@ -178,3 +178,16 @@ body {
 }
 
 
+.main {
+  position: relative;
+}
+
+.cardContainer {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.card {
+  position: relative;
+  min-height: 480px;
+}

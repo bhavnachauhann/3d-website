@@ -4,10 +4,9 @@ import Hero from "./HomePage/Hero";
 import BrandSlider from "./HomePage/BrandSlider";
 import brand from "@/app/assets/images/brand.png";
 
-import LogoSlider from "./HomePage/LogoSlider";
+// import LogoSlider from "./HomePage/LogoSlider";
 import Hello from "./HomePage/Hello";
 import Testmonial from "./HomePage/Testmonial";
-import RecentWork from "./HomePage/RecentWork";
 import Founder from "./HomePage/Founder";
 import WhatWeDo from "./HomePage/WhatWeDo";
 import Awards from "./HomePage/Awards";
@@ -15,6 +14,7 @@ import FAQ from "./HomePage/FAQ";
 import Pricing from "./HomePage/Pricing";
 import ConnectForm from "./HomePage/ConnectForm";
 import Footer from "./components/Footer";
+import RecentWork from "./HomePage/RecentWork";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
       {/* --- Tech Logos Section --- */}
       <section className="bg-[#f5f5f5] pb-12  text-center">
         <Image src={brand} alt="Brand Logo" className="px-2 " />
-        <LogoSlider />
+        {/* <LogoSlider /> */}
       </section>
 
       {/* --- Flowing Text Section --- */}
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <Hello />
       <Testmonial />
-      <RecentWork />
+      <RecentWork/>
       <WhatWeDo />
       <Founder />
       <Awards />
